@@ -1,0 +1,32 @@
+x =[6,5,8,7,4]
+y = ['g','h','j','k','l']
+z = [3,4,'r','python',[1,3,4],True]
+print(z[0])
+print(z[3])
+print(z)
+x[1]=12
+print(x)
+print(len(x))
+x.insert(2,34)
+print(x)
+z.append(12)
+print(z)
+z.remove("python")
+print(z)
+x.pop()
+print(x)
+y.clear()
+print(y)
+x.sort(reverse=True)
+print(x)
+x.sort()
+print(x)
+a,b,c,d = [1,2,3,4]
+print(a)
+print(b)
+print(c)
+print(d)
+f,g,*h = (3,4,5,6)
+print(f)
+print(g)
+print(h)

@@ -1,0 +1,18 @@
+x="anjan  dilsgam"
+print(x.capitalize())
+print(x.upper())
+print(x.lower())
+y="dilshan"
+print(y.capitalize())
+print(y.upper())
+print(y.lower())
+print("his name is %s " %(y))
+print("his name is " +y)
+print(x[1:4])
+print(x[:4])
+print(x.replace('j','f'))
+print(x.split(' '))
+print(x.split('j'))
+y=x.split( )
+z=' and '.join(y)
+print(z)
