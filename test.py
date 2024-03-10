@@ -1,13 +1,18 @@
+nimal = 188
+kamal = 324
+supun = 757
 
-c = 10
+my_object = {
+    "nimal": 188,
+}
+my_object = {
+    "kamal": 324,
+}
+my_object = {
+    "supun": 757,
+}
+name_student = input("enter is your name = ")
+print(my_object[name_student])
 
-for i in range(c, -1, -1):
-    count = c
-    count = count - i
-    for j in range(i):
-        print(" ", end=" ")
-    for k in range(count):
-        print("#", end=" ")
-    print()    
 
 

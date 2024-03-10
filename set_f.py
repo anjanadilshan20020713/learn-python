@@ -1,0 +1,27 @@
+w = {3,4,5,6,76,8}
+print(w)
+r = {2,2,3,4,5,5,6}
+print(r)
+print(len(r))
+print(len(w))
+w.add(45454)
+print(w)
+w.update([12,23])
+print(w)
+w .remove(4)
+print(w)
+w.clear()
+print(w)
+print(w)
+t = (3,4,5,6,7)
+i = set(t)
+print(t)
+print(i)
+print(type(t))
+print(type(i))
+g = {3,4,5,6,7}
+f = {4,6,3,2,0}
+print(g & f)
+print(g.intersection(f))
+print(g | f)
+print(g.union(f))

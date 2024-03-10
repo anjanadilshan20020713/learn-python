@@ -1,0 +1,16 @@
+x = {"physics":23 , "maths":234 , "chemistry":546}
+print(x)
+print(x["maths"])
+w = {"name":"anjana",3:4 , ("nimal","sunimal"):123123,True:3}
+print(w)
+print(len(w))
+x["age"]=234
+print(x)
+#x.pop(True)
+x .clear()
+print(x)
+w["name"]="kaml"
+print(w)
+print(x.keys())
+print(x.values())
+print(x.items())
